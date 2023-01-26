@@ -219,6 +219,16 @@ margin-left: -40px;
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+.Lebenslauf button
+{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 2px;
+    background-color: teal;
+}
+
 .about .box
 {
     display: flex;
