@@ -1,7 +1,7 @@
 
 {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 } 
@@ -139,7 +139,17 @@ body
     position: relative;
     list-style: none;
     margin: 10px 0;
+    cursor: default;
+}
+.contactinfo ul li a
+{
+    font-size: 15px;
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
     cursor: pointer;
+    text-decoration: none;
+    color: white;
 }
 .contactinfo ul li .icon
 {
@@ -149,7 +159,7 @@ body
     color: gainsboro;
     margin-left: -30px;
 }
-.contactinfo ul li span
+.contactinfo ul li span 
 {
     color: white;
     font-weight: 300;
@@ -171,6 +181,7 @@ body
     color: white;
     font-weight: 300;
     margin-left: -30px;
+    color: white;
 }
 .contactinfo.Sprachen .percent 
 {
@@ -235,23 +246,38 @@ body
     display: flex;
     flex-direction: row;
     margin: 20px 0;
+    text-decoration: none;
+    cursor: auto;
 }
+
 .about .box .year_company
 {
     min-width: 150px;
+    text-decoration: none;
 }
+
 .about .box .year_company h5
 {
     text-transform: uppercase;
     color: teal;
     font-weight: 600;
 }
+
+.about .box .year_company a
+{
+    text-transform: uppercase;
+    color: teal;
+    font-weight: 600;
+    text-decoration: none;
+}
+
 .about .box .text h4
 {
     text-transform: uppercase;
     color: teal;
     font-size: 16px;
 }
+
 .skills .box
 {
     position: relative;
@@ -262,11 +288,13 @@ body
     align-items: center;
     margin-bottom: -30px;
 }
+
 .skills .box h4
 {
     text-transform: uppercase;
     font-weight: 500;
 }
+
 .skills .box .percent
 {
     position: relative;
@@ -274,6 +302,7 @@ body
     height: 10px;
     background: rgb(235, 233, 233);
 }
+
 .skills .box .percent div
 {
     position: absolute;
@@ -282,17 +311,20 @@ body
     height: 100%;
     background: rgb(2, 253, 241);
 }
+
 .interest ul
 {
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
+
 .interest ul li
 {
     list-style: none;
     font-weight: 500;
     margin: 10px 0;
 }
+
 .interest ul li .fa
 {
     color: teal;
